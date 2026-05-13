@@ -1,39 +1,24 @@
-# Environment
-.env
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
 
-# Composer
-/vendor/
-composer.phar
-composer.lock
+# Node dependencies
+node_modules
 
-# Database files
-/database/database.sqlite
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# IDE/editor files
-/.vscode/
-/.idea/
-*.sublime-workspace
-*.sublime-project
-
-# Logs and runtime files
-/logs/
+# Logs
+logs
 *.log
-*.cache
 
-# Build and temporary files
-*.tmp
-*.temp
-*.bak
-*.swp
-*.zip
+# Misc
+.DS_Store
+.fleet
+.idea
 
-# Ignore generated test reports
-/phpunit.xml
-/phpunit.xml.dist
-
-# Ignore agent files
-/agent/**
+# Local env files
+.env
+.env.*
+!.env.example
